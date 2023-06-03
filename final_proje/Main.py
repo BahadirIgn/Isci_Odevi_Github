@@ -118,7 +118,7 @@ try:
 
     # d) Yeni maaşa göre DataFrame'in küçükten büyüğe sıralanması ve yazdırılması
     sorted_df = df.sort_values('yeni_maas')
-    print("----- Yeni Maaşa Göre Sıralı DataFrame -----")
+    print("--- Yeni Maaşa Göre Sıralı DataFrame ---")
     print(sorted_df)
     print("-------------------------------------------")
     
