@@ -133,7 +133,7 @@ try:
     selected_rows = yeni_maas_10000_ust.loc[2:5, ['tc_no', 'yeni_maas']]
     print("----- Yeni Maaşı 10000 TL Üzerinde Olan 2-5 Satır -----")
     print(selected_rows)
-    print("-----------------------------------------------------")
+    print("-----------------")
 
     # g) Ad, soyad, sektör ve yeni maaşı içeren yeni bir DataFrame oluşturma ve yazdırma
     new_df = df[['ad', 'soyad', 'sektor', 'yeni_maas']]
